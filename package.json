@@ -1,0 +1,23 @@
+{
+  "name": "basic-informational-site",
+  "version": "1.0.0",
+  "description": "This project is a part of The Odin Project Curriculum. The main objective here is to create a simple informational website using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index-express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osechi3/basic-informational-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osechi3/basic-informational-site/issues"
+  },
+  "homepage": "https://github.com/osechi3/basic-informational-site#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
