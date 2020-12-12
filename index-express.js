@@ -7,13 +7,7 @@ app.get('/', (req, res) => {
   })
 })
 
-app.get('/about', (req, res) => {
-  res.sendFile(__dirname + `${req.url}.html`, (err) => {
-    if (err) console.log(err)
-  })
-})
-
-app.get('/contact-me', (req, res) => {
+app.get(['/about', '/contact-me'], (req, res) => {
   res.sendFile(__dirname + `${req.url}.html`, (err) => {
     if (err) console.log(err)
   })
